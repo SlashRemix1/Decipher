@@ -10,7 +10,11 @@ Please submit issues here or using our discord at: https://discord.gg/w78tbA2
 Please fork and submit edits!
 
 TODO:
+
 Packet Research!
 Way to track edits from users and different editing tiers.
+
 Fix ServerHandler_0x07_DisplayItemMonster - Seems to be crashing the client.
+
 Fix ServerHandler_0x15_MapInfo - Map Name translations could be black screening or crashing the client.
+
