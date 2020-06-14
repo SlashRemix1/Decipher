@@ -33,7 +33,7 @@ namespace Akorade.Types
             Hash = hash;
             Name = name;
             englishName = engName;
-            FileInfo info = new FileInfo("C:/Nexon/Legend of Darkness/maps/lod" + File + ".map");
+            FileInfo info = new FileInfo("E:\\Program Files\\Legend of Darkness\\maps\\lod" + File + ".map");
             if (info.Exists)
             {
                 Area = NexonFileFormat<NexonMapFile>.FromStream(info.OpenRead());

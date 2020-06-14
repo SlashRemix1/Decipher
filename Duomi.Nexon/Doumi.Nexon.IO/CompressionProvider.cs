@@ -1,8 +1,8 @@
-using Ionic.Zlib;
+using OfficeOpenXml.Packaging.Ionic.Zlib;
 
 namespace Doumi.Nexon.IO
 {
-	public static class CompressionProvider
+    public static class CompressionProvider
 	{
 		public static byte[] Deflate(byte[] buffer)
 		{
