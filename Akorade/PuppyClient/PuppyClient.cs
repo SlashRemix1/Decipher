@@ -33,8 +33,8 @@ namespace Doumi.PuppyServer
 
         internal async Task Connect()
         {
-            await ClientSocket.ConnectAsync("puppyserver.dynu.net", 6969);
-            //await ClientSocket.ConnectAsync("127.0.0.1", 6969); (Use this if running a server from your local computer.)
+            //await ClientSocket.ConnectAsync("puppyserver.dynu.net", 6969);
+            await ClientSocket.ConnectAsync("127.0.0.1", 6969); //(Use this if running a server from your local computer.)
 
             if (ClientSocket.Connected)
                 Connected = true;
